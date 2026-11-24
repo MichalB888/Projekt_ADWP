@@ -22,12 +22,12 @@ studentów.
 
 ## Dane
 
-Lokalny plik `Dane_studentci.xlsx` jest celowo wykluczony z Git. Zanim dane
-studentów trafią do GitHuba, potwierdźcie, że są zanonimizowane i możecie je
-udostępniać. Jeśli nie, uzgodnijcie bezpieczny sposób przekazania ich w zespole.
+Zbiór leży w `data/raw/`. Na dysku plik nazywa się `Dane_studentci.xlsx`
+(literówka w nazwie; notatnik przyjmuje też `Dane_studenci.xlsx`).
+W notatniku opiszcie źródło danych, zakres i ograniczenia zbioru.
 
-Docelowo trzymajcie plik źródłowy w `data/raw/`, a pliki po przetworzeniu
-w `data/processed/`. Nie nadpisujcie danych źródłowych.
+Trzymajcie pliki po przetworzeniu w `data/processed/` i nie nadpisujcie danych
+źródłowych.
 
 ## Uruchomienie
 
@@ -39,8 +39,9 @@ py -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-W VS Code wybierzcie interpreter z `.venv` i otwórzcie notatnik Jupyter
-z katalogu `notebooks/`.
+W VS Code wybierzcie interpreter z `.venv` i otwórzcie
+`notebooks/analiza_studentow.ipynb`. Cała analiza jest w tym jednym notatniku,
+z opisami i wynikami. Nie dodawajcie obok osobnych mini-skryptów.
 
 ## Plan analizy
 

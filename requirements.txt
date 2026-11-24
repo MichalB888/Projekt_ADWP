@@ -1,7 +1,9 @@
 jupyter
 matplotlib
+missingno
 numpy
 openpyxl
 pandas
+scikit-learn
 scipy
 seaborn
